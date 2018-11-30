@@ -1,4 +1,5 @@
-CHART_REPO := http://jenkins-x-chartmuseum:8080
+#CHART_REPO := http://jenkins-x-chartmuseum:8080
+CHART_REPO := http://chartmuseum.jx.172.21.199.2.nip.io
 CURRENT=$(pwd)
 NAME := demo
 OS := $(shell uname)
